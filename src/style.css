@@ -1,1 +1,74 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/*     */
+.container-fluid {
+  background: green;
+  z-index: -1;
+}
+
+div.card {
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  background: white;
+  height: 300px;
+  width: 200px;
+  position: relative;
+  font-size: 100px;
+}
+
+.corazon::before {
+  content: "♥";
+  color: red;
+  margin: -30px 130px 0 0;
+  font-size: 75px;
+}
+
+.pica::before {
+  content: "♠";
+  margin: -30px 130px 0 0;
+  color: black;
+  font-size: 75px;
+}
+
+.trebol::before {
+  content: "♣";
+  margin: -30px 130px 0 0;
+  color: black;
+  font-size: 75px;
+}
+
+.diamante::before {
+  content: "♦";
+  margin: -30px 130px 0 0;
+  color: red;
+  font-size: 75px;
+}
+
+.corazon::after {
+  content: "♥";
+  color: red;
+  margin: -30px 0 0 130px;
+  font-size: 75px;
+}
+
+.pica::after {
+  content: "♠";
+  color: black;
+  margin: -30px 0 0 130px;
+  font-size: 75px;
+}
+
+.trebol::after {
+  content: "♣";
+  color: black;
+  margin: -30px 0 0 130px;
+  font-size: 75px;
+}
+
+.diamante::after {
+  content: "♦";
+  color: red;
+  margin: -30px 0 0 130px;
+  font-size: 75px;
+}
